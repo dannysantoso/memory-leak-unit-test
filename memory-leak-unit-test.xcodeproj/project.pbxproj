@@ -15,11 +15,16 @@
 		E1A5116527F9670400735133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A5116327F9670400735133 /* Main.storyboard */; };
 		E1A5116727F9670600735133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A5116627F9670600735133 /* Assets.xcassets */; };
 		E1A5116A27F9670600735133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A5116827F9670600735133 /* LaunchScreen.storyboard */; };
-		E1A5117527F9670700735133 /* memory_leak_unit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5117427F9670700735133 /* memory_leak_unit_testTests.swift */; };
 		E1A5118E27F9673700735133 /* DelegateRetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5118D27F9673700735133 /* DelegateRetainCycle.swift */; };
 		E1A5119027F967BB00735133 /* DelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5118F27F967BB00735133 /* DelegateTests.swift */; };
 		E1A5119227F9AC7200735133 /* NotificationRetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119127F9AC7200735133 /* NotificationRetainCycle.swift */; };
 		E1A5119427F9ACBA00735133 /* NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119327F9ACBA00735133 /* NotificationTests.swift */; };
+		E1A5119627F9B4D900735133 /* ActionRetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119527F9B4D900735133 /* ActionRetainCycle.swift */; };
+		E1A5119827F9B51000735133 /* ActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119727F9B51000735133 /* ActionTests.swift */; };
+		E1A5119A27F9B7CD00735133 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119927F9B7CD00735133 /* ViewControllerTests.swift */; };
+		E1A5119C27F9B81900735133 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119B27F9B81900735133 /* Helper.swift */; };
+		E1A5119E27F9BB3000735133 /* ClassInstanceRetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119D27F9BB3000735133 /* ClassInstanceRetainCycle.swift */; };
+		E1A511A027F9CA9700735133 /* ClassInstanceRetainCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119F27F9CA9700735133 /* ClassInstanceRetainCycleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +53,16 @@
 		E1A5116927F9670600735133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A5116B27F9670600735133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A5117027F9670700735133 /* memory-leak-unit-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memory-leak-unit-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1A5117427F9670700735133 /* memory_leak_unit_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memory_leak_unit_testTests.swift; sourceTree = "<group>"; };
 		E1A5118D27F9673700735133 /* DelegateRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateRetainCycle.swift; sourceTree = "<group>"; };
 		E1A5118F27F967BB00735133 /* DelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateTests.swift; sourceTree = "<group>"; };
 		E1A5119127F9AC7200735133 /* NotificationRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRetainCycle.swift; sourceTree = "<group>"; };
 		E1A5119327F9ACBA00735133 /* NotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTests.swift; sourceTree = "<group>"; };
+		E1A5119527F9B4D900735133 /* ActionRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRetainCycle.swift; sourceTree = "<group>"; };
+		E1A5119727F9B51000735133 /* ActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTests.swift; sourceTree = "<group>"; };
+		E1A5119927F9B7CD00735133 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		E1A5119B27F9B81900735133 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E1A5119D27F9BB3000735133 /* ClassInstanceRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInstanceRetainCycle.swift; sourceTree = "<group>"; };
+		E1A5119F27F9CA9700735133 /* ClassInstanceRetainCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassInstanceRetainCycleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +130,16 @@
 			children = (
 				E1A5115D27F9670400735133 /* AppDelegate.swift */,
 				E1A5115F27F9670400735133 /* SceneDelegate.swift */,
-				E1A5116127F9670400735133 /* ViewController.swift */,
 				E1A5116327F9670400735133 /* Main.storyboard */,
-				E1A5116627F9670600735133 /* Assets.xcassets */,
 				E1A5116827F9670600735133 /* LaunchScreen.storyboard */,
 				E1A5116B27F9670600735133 /* Info.plist */,
+				E1A5116627F9670600735133 /* Assets.xcassets */,
+				E1A5116127F9670400735133 /* ViewController.swift */,
 				E1A5118D27F9673700735133 /* DelegateRetainCycle.swift */,
 				E1A5119127F9AC7200735133 /* NotificationRetainCycle.swift */,
+				E1A5119527F9B4D900735133 /* ActionRetainCycle.swift */,
+				E1A5119B27F9B81900735133 /* Helper.swift */,
+				E1A5119D27F9BB3000735133 /* ClassInstanceRetainCycle.swift */,
 			);
 			path = "memory-leak-unit-test";
 			sourceTree = "<group>";
@@ -134,9 +147,11 @@
 		E1A5117327F9670700735133 /* memory-leak-unit-testTests */ = {
 			isa = PBXGroup;
 			children = (
-				E1A5117427F9670700735133 /* memory_leak_unit_testTests.swift */,
+				E1A5119927F9B7CD00735133 /* ViewControllerTests.swift */,
 				E1A5118F27F967BB00735133 /* DelegateTests.swift */,
 				E1A5119327F9ACBA00735133 /* NotificationTests.swift */,
+				E1A5119727F9B51000735133 /* ActionTests.swift */,
+				E1A5119F27F9CA9700735133 /* ClassInstanceRetainCycleTests.swift */,
 			);
 			path = "memory-leak-unit-testTests";
 			sourceTree = "<group>";
@@ -328,10 +343,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A5116227F9670400735133 /* ViewController.swift in Sources */,
+				E1A5119C27F9B81900735133 /* Helper.swift in Sources */,
 				E1A5115E27F9670400735133 /* AppDelegate.swift in Sources */,
+				E1A5119E27F9BB3000735133 /* ClassInstanceRetainCycle.swift in Sources */,
 				E1A5118E27F9673700735133 /* DelegateRetainCycle.swift in Sources */,
 				E1A5119227F9AC7200735133 /* NotificationRetainCycle.swift in Sources */,
 				E1A5116027F9670400735133 /* SceneDelegate.swift in Sources */,
+				E1A5119627F9B4D900735133 /* ActionRetainCycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +357,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A5119827F9B51000735133 /* ActionTests.swift in Sources */,
 				E1A5119027F967BB00735133 /* DelegateTests.swift in Sources */,
+				E1A5119A27F9B7CD00735133 /* ViewControllerTests.swift in Sources */,
 				E1A5119427F9ACBA00735133 /* NotificationTests.swift in Sources */,
-				E1A5117527F9670700735133 /* memory_leak_unit_testTests.swift in Sources */,
+				E1A511A027F9CA9700735133 /* ClassInstanceRetainCycleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

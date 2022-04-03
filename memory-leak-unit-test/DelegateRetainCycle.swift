@@ -36,9 +36,3 @@ class NotLeakingClient : ServerDelegate{
         server.delegate = self
     }
 }
-
-class SomeObject{
-    func doSomething(){
-        
-    }
-}
