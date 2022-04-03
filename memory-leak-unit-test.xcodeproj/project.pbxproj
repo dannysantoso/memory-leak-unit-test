@@ -17,7 +17,9 @@
 		E1A5116A27F9670600735133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A5116827F9670600735133 /* LaunchScreen.storyboard */; };
 		E1A5117527F9670700735133 /* memory_leak_unit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5117427F9670700735133 /* memory_leak_unit_testTests.swift */; };
 		E1A5118E27F9673700735133 /* DelegateRetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5118D27F9673700735133 /* DelegateRetainCycle.swift */; };
-		E1A5119027F967BB00735133 /* DelegatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5118F27F967BB00735133 /* DelegatesTests.swift */; };
+		E1A5119027F967BB00735133 /* DelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5118F27F967BB00735133 /* DelegateTests.swift */; };
+		E1A5119227F9AC7200735133 /* NotificationRetainCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119127F9AC7200735133 /* NotificationRetainCycle.swift */; };
+		E1A5119427F9ACBA00735133 /* NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5119327F9ACBA00735133 /* NotificationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,9 @@
 		E1A5117027F9670700735133 /* memory-leak-unit-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memory-leak-unit-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A5117427F9670700735133 /* memory_leak_unit_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memory_leak_unit_testTests.swift; sourceTree = "<group>"; };
 		E1A5118D27F9673700735133 /* DelegateRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateRetainCycle.swift; sourceTree = "<group>"; };
-		E1A5118F27F967BB00735133 /* DelegatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatesTests.swift; sourceTree = "<group>"; };
+		E1A5118F27F967BB00735133 /* DelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateTests.swift; sourceTree = "<group>"; };
+		E1A5119127F9AC7200735133 /* NotificationRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRetainCycle.swift; sourceTree = "<group>"; };
+		E1A5119327F9ACBA00735133 /* NotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 				E1A5116827F9670600735133 /* LaunchScreen.storyboard */,
 				E1A5116B27F9670600735133 /* Info.plist */,
 				E1A5118D27F9673700735133 /* DelegateRetainCycle.swift */,
+				E1A5119127F9AC7200735133 /* NotificationRetainCycle.swift */,
 			);
 			path = "memory-leak-unit-test";
 			sourceTree = "<group>";
@@ -130,7 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				E1A5117427F9670700735133 /* memory_leak_unit_testTests.swift */,
-				E1A5118F27F967BB00735133 /* DelegatesTests.swift */,
+				E1A5118F27F967BB00735133 /* DelegateTests.swift */,
+				E1A5119327F9ACBA00735133 /* NotificationTests.swift */,
 			);
 			path = "memory-leak-unit-testTests";
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 				E1A5116227F9670400735133 /* ViewController.swift in Sources */,
 				E1A5115E27F9670400735133 /* AppDelegate.swift in Sources */,
 				E1A5118E27F9673700735133 /* DelegateRetainCycle.swift in Sources */,
+				E1A5119227F9AC7200735133 /* NotificationRetainCycle.swift in Sources */,
 				E1A5116027F9670400735133 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +339,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A5119027F967BB00735133 /* DelegatesTests.swift in Sources */,
+				E1A5119027F967BB00735133 /* DelegateTests.swift in Sources */,
+				E1A5119427F9ACBA00735133 /* NotificationTests.swift in Sources */,
 				E1A5117527F9670700735133 /* memory_leak_unit_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
