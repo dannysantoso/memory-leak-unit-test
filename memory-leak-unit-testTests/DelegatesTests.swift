@@ -5,28 +5,37 @@
 //  Created by danny santoso on 03/04/22.
 //
 
-import XCTest
+import Nimble
+import Quick
+import SpecLeaks
 
-class DelegatesTests: XCTestCase {
+@testable import memory_leak_unit_test
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+class DelegatesTests: QuickSpec {
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    override func spec() {
+        describe("a NotLeakingClient") {
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+            it("must not leak"){
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+                let test = LeakTest{
+                    return NotLeakingClient(server: NotLeakingServer())
+                }
+
+                expect(test).toNot(leak())
+            }
+        }
+
+        describe("a LeakingClient") {
+
+            it("must leak"){
+
+                let test = LeakTest{
+                    return LeakingClient(server: LeakingServer())
+                }
+
+                expect(test).to(leak())
+            }
         }
     }
-
 }

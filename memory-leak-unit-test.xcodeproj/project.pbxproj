@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7FA25CDB9233C9CB15CDEB /* Pods_memory_leak_unit_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F2EF2B738FD2E8093473AA /* Pods_memory_leak_unit_testTests.framework */; };
+		4CFAEF1ACBDCFFED38426009 /* Pods_memory_leak_unit_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA1036A951124F563AF2EE7 /* Pods_memory_leak_unit_test.framework */; };
 		E1A5115E27F9670400735133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5115D27F9670400735133 /* AppDelegate.swift */; };
 		E1A5116027F9670400735133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5115F27F9670400735133 /* SceneDelegate.swift */; };
 		E1A5116227F9670400735133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5116127F9670400735133 /* ViewController.swift */; };
@@ -26,16 +28,15 @@
 			remoteGlobalIDString = E1A5115927F9670400735133;
 			remoteInfo = "memory-leak-unit-test";
 		};
-		E1A5117B27F9670700735133 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1A5115227F9670400735133 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1A5115927F9670400735133;
-			remoteInfo = "memory-leak-unit-test";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		523F48AAA1903663A6BB878E /* Pods-memory-leak-unit-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-leak-unit-testTests.debug.xcconfig"; path = "Target Support Files/Pods-memory-leak-unit-testTests/Pods-memory-leak-unit-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D143A5AA7FA2B40637ADD26 /* Pods-memory-leak-unit-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-leak-unit-testTests.release.xcconfig"; path = "Target Support Files/Pods-memory-leak-unit-testTests/Pods-memory-leak-unit-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		817D35917E4B78F3814F38C6 /* Pods-memory-leak-unit-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-leak-unit-test.release.xcconfig"; path = "Target Support Files/Pods-memory-leak-unit-test/Pods-memory-leak-unit-test.release.xcconfig"; sourceTree = "<group>"; };
+		87F2EF2B738FD2E8093473AA /* Pods_memory_leak_unit_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memory_leak_unit_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA1036A951124F563AF2EE7 /* Pods_memory_leak_unit_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_memory_leak_unit_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8234949E27FAB370559140F /* Pods-memory-leak-unit-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-memory-leak-unit-test.debug.xcconfig"; path = "Target Support Files/Pods-memory-leak-unit-test/Pods-memory-leak-unit-test.debug.xcconfig"; sourceTree = "<group>"; };
 		E1A5115A27F9670400735133 /* memory-leak-unit-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "memory-leak-unit-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A5115D27F9670400735133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A5115F27F9670400735133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		E1A5116B27F9670600735133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A5117027F9670700735133 /* memory-leak-unit-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memory-leak-unit-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A5117427F9670700735133 /* memory_leak_unit_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memory_leak_unit_testTests.swift; sourceTree = "<group>"; };
-		E1A5117A27F9670700735133 /* memory-leak-unit-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "memory-leak-unit-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A5118D27F9673700735133 /* DelegateRetainCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateRetainCycle.swift; sourceTree = "<group>"; };
 		E1A5118F27F967BB00735133 /* DelegatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFAEF1ACBDCFFED38426009 /* Pods_memory_leak_unit_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,25 +64,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1A5117727F9670700735133 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0D7FA25CDB9233C9CB15CDEB /* Pods_memory_leak_unit_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C6EC84B7E3E847F4448ACFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA1036A951124F563AF2EE7 /* Pods_memory_leak_unit_test.framework */,
+				87F2EF2B738FD2E8093473AA /* Pods_memory_leak_unit_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CF191BBB142E18D588DCE3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8234949E27FAB370559140F /* Pods-memory-leak-unit-test.debug.xcconfig */,
+				817D35917E4B78F3814F38C6 /* Pods-memory-leak-unit-test.release.xcconfig */,
+				523F48AAA1903663A6BB878E /* Pods-memory-leak-unit-testTests.debug.xcconfig */,
+				6D143A5AA7FA2B40637ADD26 /* Pods-memory-leak-unit-testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E1A5115127F9670400735133 = {
 			isa = PBXGroup;
 			children = (
 				E1A5115C27F9670400735133 /* memory-leak-unit-test */,
 				E1A5117327F9670700735133 /* memory-leak-unit-testTests */,
 				E1A5115B27F9670400735133 /* Products */,
+				5CF191BBB142E18D588DCE3E /* Pods */,
+				1C6EC84B7E3E847F4448ACFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,7 +107,6 @@
 			children = (
 				E1A5115A27F9670400735133 /* memory-leak-unit-test.app */,
 				E1A5117027F9670700735133 /* memory-leak-unit-testTests.xctest */,
-				E1A5117A27F9670700735133 /* memory-leak-unit-testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A5118427F9670700735133 /* Build configuration list for PBXNativeTarget "memory-leak-unit-test" */;
 			buildPhases = (
+				D6B39F6BBF0EBA9949B5B650 /* [CP] Check Pods Manifest.lock */,
 				E1A5115627F9670400735133 /* Sources */,
 				E1A5115727F9670400735133 /* Frameworks */,
 				E1A5115827F9670400735133 /* Resources */,
+				E8B39838FC28FD6307CDEC00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A5118727F9670700735133 /* Build configuration list for PBXNativeTarget "memory-leak-unit-testTests" */;
 			buildPhases = (
+				EB58CE8C34369DD0F048603F /* [CP] Check Pods Manifest.lock */,
 				E1A5116C27F9670700735133 /* Sources */,
 				E1A5116D27F9670700735133 /* Frameworks */,
 				E1A5116E27F9670700735133 /* Resources */,
+				837F0F004D154177336AB332 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,24 +176,6 @@
 			productName = "memory-leak-unit-testTests";
 			productReference = E1A5117027F9670700735133 /* memory-leak-unit-testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E1A5117927F9670700735133 /* memory-leak-unit-testUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1A5118A27F9670700735133 /* Build configuration list for PBXNativeTarget "memory-leak-unit-testUITests" */;
-			buildPhases = (
-				E1A5117627F9670700735133 /* Sources */,
-				E1A5117727F9670700735133 /* Frameworks */,
-				E1A5117827F9670700735133 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1A5117C27F9670700735133 /* PBXTargetDependency */,
-			);
-			name = "memory-leak-unit-testUITests";
-			productName = "memory-leak-unit-testUITests";
-			productReference = E1A5117A27F9670700735133 /* memory-leak-unit-testUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -189,10 +191,6 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					E1A5116F27F9670700735133 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = E1A5115927F9670400735133;
-					};
-					E1A5117927F9670700735133 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = E1A5115927F9670400735133;
 					};
@@ -213,7 +211,6 @@
 			targets = (
 				E1A5115927F9670400735133 /* memory-leak-unit-test */,
 				E1A5116F27F9670700735133 /* memory-leak-unit-testTests */,
-				E1A5117927F9670700735133 /* memory-leak-unit-testUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,14 +233,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1A5117827F9670700735133 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		837F0F004D154177336AB332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memory-leak-unit-testTests/Pods-memory-leak-unit-testTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memory-leak-unit-testTests/Pods-memory-leak-unit-testTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memory-leak-unit-testTests/Pods-memory-leak-unit-testTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		D6B39F6BBF0EBA9949B5B650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-memory-leak-unit-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B39838FC28FD6307CDEC00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memory-leak-unit-test/Pods-memory-leak-unit-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-memory-leak-unit-test/Pods-memory-leak-unit-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-memory-leak-unit-test/Pods-memory-leak-unit-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB58CE8C34369DD0F048603F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-memory-leak-unit-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1A5115627F9670400735133 /* Sources */ = {
@@ -266,13 +337,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1A5117627F9670700735133 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -280,11 +344,6 @@
 			isa = PBXTargetDependency;
 			target = E1A5115927F9670400735133 /* memory-leak-unit-test */;
 			targetProxy = E1A5117127F9670700735133 /* PBXContainerItemProxy */;
-		};
-		E1A5117C27F9670700735133 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E1A5115927F9670400735133 /* memory-leak-unit-test */;
-			targetProxy = E1A5117B27F9670700735133 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -426,6 +485,7 @@
 		};
 		E1A5118527F9670700735133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8234949E27FAB370559140F /* Pods-memory-leak-unit-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +515,7 @@
 		};
 		E1A5118627F9670700735133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817D35917E4B78F3814F38C6 /* Pods-memory-leak-unit-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -484,6 +545,7 @@
 		};
 		E1A5118827F9670700735133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523F48AAA1903663A6BB878E /* Pods-memory-leak-unit-testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +571,7 @@
 		};
 		E1A5118927F9670700735133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D143A5AA7FA2B40637ADD26 /* Pods-memory-leak-unit-testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,52 +592,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memory-leak-unit-test.app/memory-leak-unit-test";
-			};
-			name = Release;
-		};
-		E1A5118B27F9670700735133 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9P78Q47KY2;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dannysantoso.memory-leak-unit-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "memory-leak-unit-test";
-			};
-			name = Debug;
-		};
-		E1A5118C27F9670700735133 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9P78Q47KY2;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dannysantoso.memory-leak-unit-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "memory-leak-unit-test";
 			};
 			name = Release;
 		};
@@ -604,15 +621,6 @@
 			buildConfigurations = (
 				E1A5118827F9670700735133 /* Debug */,
 				E1A5118927F9670700735133 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1A5118A27F9670700735133 /* Build configuration list for PBXNativeTarget "memory-leak-unit-testUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1A5118B27F9670700735133 /* Debug */,
-				E1A5118C27F9670700735133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
